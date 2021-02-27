@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "AzureHackathonProject",
+  "description": "Notifications to help students stay focused during remote learning",
+  "version": "1",
+  "author": "Keara Berlin",
+  "browser_action": {
+    "default_icon": "tab-icon.jpg",
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides" : {},
+  "permissions": []
+}

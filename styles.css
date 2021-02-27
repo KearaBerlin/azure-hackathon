@@ -1,0 +1,15 @@
+body {
+  background-color: pink;
+  width: 200px;
+  height: 300px;
+}
+
+#localVideo {
+  width: 200px;
+  height: 120px;
+  background-color: gray;
+}
+
+p {
+  color: blue;
+}
