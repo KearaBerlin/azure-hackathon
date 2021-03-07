@@ -22,3 +22,4 @@ function hasGetUserMedia() {
 // } else {
 //   window.alert("getUserMedia() is not supported by your browser");
 // }
+
