@@ -23,11 +23,11 @@
         <p>
             Attention Prompt Customization - How would you like the app to regain your student's attention?
         </p>
-        <input type="checkbox" name="customization" value="statement" />
+        <input type="checkbox" name="customization" value="statement" id="statement />
         App will say "Eyes up here" <br/>
-        <input type="checkbox" name="customization" value="sounds" />
+        <input type="checkbox" name="customization" value="sounds" id="sounds" />
         App will play an alarm sound <br/>
-        <input type="checkbox" name="customization" value="screen" />
+        <input type="checkbox" name="customization" value="screen" id="screen" />
         Screen will flash different colors<br/>
 
 
@@ -64,8 +64,8 @@
         </p>
         <div id="notificationMethod">
             <select>
-                <option value="Text">Text</option>
-                <option value="Email">Email</option>
+                <option value="Text" id="text">Text</option>
+                <option value="Email" id="email">Email</option>
             </select>
             <input type="text" name="notification" id="notification" >
             
